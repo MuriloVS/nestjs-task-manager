@@ -20,6 +20,7 @@ export class TasksService {
 
     this.tasks.push(task);
 
+    // necessário para que o controller consiga retornar em uma req http
     return task;
   }
 }

@@ -1,3 +1,5 @@
+// interfaces forçam a forma que um objeto deve ter na compilação
+// após a compilação elas não são preservadas, ao contrário das classes
 export interface Task {
   id: string;
   title: string;
